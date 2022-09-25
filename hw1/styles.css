@@ -1,0 +1,325 @@
+body { 
+    background-color:black
+}
+
+#sitebody{
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+}
+
+#main{
+    position: relative;
+    width: 1200px;
+    height: 750px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+}
+
+#centralName{
+    font-size:10ch;
+    color:aliceblue;
+    background-color: green;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#mute{
+    position:relative;
+    display: inline-block;
+    background-color: black;
+    width:60px;
+    height:60px;
+    
+    
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#mute input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+#mute input[type="checkbox"]{
+    content: url(/Users/welon/developer/ntuee-web/hw1/mute.png);
+    width: 60px;
+    height:60px;
+    border-radius: 30px;    
+    
+    display: block;
+    overflow: hidden;
+}
+#mute input[type="checkbox"]:checked{
+    content: url(/Users/welon/developer/ntuee-web/hw1/unmute.png);
+}
+
+/* 
+#bigMuteImage{
+    width: 80px;
+    height: 160px;
+    border-radius: 20px;
+}  */
+#mute .tooltiptextCentral{
+    visibility: hidden;
+    width: 60px;
+    height:20px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+
+    /* 定位 */
+    position: absolute;
+    top: 75px;
+    right:0px;  
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#mute:hover .tooltiptextCentral{
+    visibility: visible;
+}
+
+#mute .tooltiptextCentral::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+
+
+
+#anchoredMe{
+    border-radius: 40px;
+    width: 80px;
+    height: 40px;
+    background-color: black;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    bottom:8px;
+    left:0;
+
+    display: flex; 
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+#bigAnchoredMe{
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+#tempRight{
+    position:relative;
+    width: 450px;
+    height: 750px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+    align-items: center;
+}
+#right{
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    text-align: center;
+    line-height: 600px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-around;
+
+    position:absolute;
+    top:70px;
+    left:25px;
+}
+
+.user{
+    position: relative;
+    width: 180px;
+    height: 160px;
+    border-radius: 25px;
+    margin:5px;
+    background-color: rgb(59, 58, 58);
+    text-align: center;
+    line-height: 600px;
+}
+
+.rightCentralName{
+    font-size:3ch;
+    color:white;
+    background-color: rgb(196, 55, 98);
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.muteRight{
+    width:40px;
+    height:40px;
+
+    margin:auto;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+.muteImg{
+    height:30px;
+    border-radius: 15px;
+}
+
+.muteRight input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+.muteRight input[type="checkbox"]{
+    content: url(/Users/welon/developer/ntuee-web/hw1/mute.png);
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    
+    display: block;
+    overflow: hidden;
+}
+.muteRight input[type="checkbox"]:checked{
+    content: url(/Users/welon/developer/ntuee-web/hw1/unmute.png);
+}
+
+.muteRight .tooltiptext{
+    visibility: hidden;
+    width: 40px;
+    height:15px;
+    font-size:x-small;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+
+    /* 定位 */
+    position: absolute;
+    top:45px;
+
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.muteRight:hover .tooltiptext{
+    visibility: visible;
+}
+.muteRight .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+
+.leftBottomName{
+    font-size:3ch;
+    color:white;
+    width:80px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(59, 58, 58);;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    bottom:0;
+    left:0;
+
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+#bottomBar{
+    width:1650px;
+    border-radius: 100px;
+}
+
+.anchoredIcon{
+    width:120px;
+    height:50px;
+    border-radius: 20px;
+    background-color: black;
+    opacity:0.5;
+
+    /* div align center */
+    margin:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    
+    /* text align center */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.anchoredIcon:hover{
+    opacity:0.9;
+}
+.anchoredIcon:hover::-ms-tooltip{
+    width:60px;
+    height:50px;
+    content:"mute";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
