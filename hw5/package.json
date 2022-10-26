@@ -1,0 +1,17 @@
+{
+  "name": "hw5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd backend && yarn server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
