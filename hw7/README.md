@@ -16,6 +16,7 @@ Hook(如useEffect, UseState), styled-components, antd
 Run yarn or npm install to install all the dependencies.
 cd to frontend, and run yarn start or npm start to start the app.
 cd to backend, and run npm run server to start the app.
+Need MongoDB databased url on file: /backend/.env.default
 
 ## 專案內容:
 起始會顯示登入網頁，能夠以名字做登入，登入後會進入聊天室介面，能夠開啟多個聊天室，並點擊不同聊天室與不同人聊天。
