@@ -3,7 +3,7 @@
 ## 使用相關技術:
 語言: Javascript, HTML, CSS  
 套件: React, Node.js(Express), MongoDB, Websocket  
-Javascript相關技術: Hook(如useEffect, UseState), styled-components  
+Javascript相關技術: Hook(如useEffect, UseState), styled-components    
 (並未使用graphql)  
 (並未deploy在如heroku等平台, 只有localhost)  
 
