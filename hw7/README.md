@@ -22,7 +22,6 @@ cd to backend, and run npm run server to start the app.
 而當兩個人分別登入時，兩個人便可即時聊天。
 
 ## 專案演示:
-=======
 以SendGuy之名登入, 傳訊息給ReceiveGuy, 再以ReceiveGuy之名登入, 即可看到收到的訊息.
 
 起始畫面
