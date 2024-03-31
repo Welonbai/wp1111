@@ -5,8 +5,8 @@
 Javascript, HTML, CSS  
 套件:   
 React, Node.js(Express), MongoDB, Websocket  
-Javascript相關技術:   
-Hook(如useEffect, UseState), styled-components  
+語法和函式庫:   
+Hook(如useEffect, UseState), styled-components, antd  
 
 
 (並未使用graphql)  
